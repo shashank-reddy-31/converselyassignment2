@@ -1,30 +1,24 @@
-# Getting Started with Create React App
+# Stock List Application  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple React application that fetches and displays stock data in a list format. The application utilizes public APIs to retrieve real-time stock price information.  
 
-## Available Scripts
+## Features  
+- Fetches stock data for specified companies (currently set to Apple Inc. - AAPL).  
+- Displays the stock symbol, current price, and percentage change in price.  
+- Automatically refreshes data every 60 seconds.  
+- Built with React functional components and hooks.  
 
-In the project directory, you can run:
+## Technologies Used  
+- React  
+- JavaScript (ES6+)  
+- CSS for styling  
+- Fetch API to retrieve data  
 
-### `npm start`
+## API Used  
+The application uses the **Financial Modeling Prep API** to fetch stock data.  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
+### API Endpoint  
+The following endpoint retrieves the current price and change percentage for Apple Inc.:ashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
