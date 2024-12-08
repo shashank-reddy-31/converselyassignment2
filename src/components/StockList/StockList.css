@@ -1,0 +1,30 @@
+.stock-list {
+    margin-top: 20px;
+  }
+  
+  .stock-list table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .stock-list th,
+  .stock-list td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .stock-list th {
+    background-color: #f2f2f2;
+  }
+  
+  .loading {
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .error {
+    color: red;
+    text-align: center;
+  }
+  
